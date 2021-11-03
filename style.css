@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.first_section {
+  background-image: url("imgs/pasta_background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 750px;
+}
+.first_section nav {
+  width: 100%;
+  height: 110px;
+}
+.first_section nav .header {
+  display: flex;
+  flex-direction: row;
+  width: 78%;
+  height: 100%;
+  align-items: center;
+}
+.first_section nav .header img {
+  padding: 0 12.5%;
+  height: 100px;
+}
+.first_section nav .header ul {
+  display: flex;
+  flex-direction: row;
+}
+.first_section nav .header ul li a {
+  color: white;
+  font-size: 14px;
+  font-family: "GentiumBookBasic";
+}
+.first_section nav .header ul li .word {
+  padding: 0 21px;
+}
+.first_section nav .header ul li .icon {
+  padding: 0 9px;
+  color: #dab33e;
+}
+.first_section .first_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.first_section .first_div h1 {
+  font-size: 72px;
+  color: white;
+  text-align: center;
+  font-family: "Yesevaone";
+  padding-top: 60px;
+}
+.first_section .first_div .decoration {
+  height: 30px;
+  width: 150px;
+  margin: 30px 0;
+}
+.first_section .first_div .first_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.first_section .first_div .first_buttons .buttons {
+  text-decoration: none;
+  display: flex;
+  height: 30px;
+  width: 120px;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.first_section .first_div .first_buttons .button_black {
+  color: white;
+  border: solid 1px black;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.first_section .first_div .first_buttons .button_black:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.first_section .first_div .first_buttons .button_white {
+  color: white;
+  border: solid 1px white;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.first_section .first_div .first_buttons .button_white:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*# sourceMappingURL=style.css.map */
